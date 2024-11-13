@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You an Idiot?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Are You an Idiot?</h1>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+        <div class="chart">
+            <div class="bar yes-bar" id="yesBar">
+                <span>Yes</span>
+            </div>
+            <div class="bar no-bar" id="noBar">
+                <span>No</span>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for feedback -->
+    <div class="modal" id="feedbackModal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <p id="feedbackMessage">Well, at least you're honest!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
